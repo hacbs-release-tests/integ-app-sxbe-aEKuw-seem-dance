@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-lnwz
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/qijing/integration1-nvya-tenant/integ-app-sxbe/hacbs-test-project-lnwz@sha256:f1a4a9c84ed221c61568273173692a7872f56b0ae33aa2095cd6d608c2242633
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
